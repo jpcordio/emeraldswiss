@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.text-logo{
+  font-family: "Sans Serif Collection" !important;
+}

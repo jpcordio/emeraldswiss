@@ -1,0 +1,94 @@
+.body, html{
+    font-family: "Sans Serif Collection" !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Arial Black";
+}
+
+/* BEGIN: Color definition */
+.colour-shamrock{
+    color: #03AC13;
+}
+
+.colour-lightgray{
+    color: #d3d3d3;
+}
+
+.colour-red{
+    color: #FF0000;
+}
+/* END: Color definition */
+
+/* BEGIN: CSS for main NAV  */
+.separator{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a.nav-link.nav-link {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: "Roboto";
+}
+
+.active{
+    color: #03AC13 !important;
+    font-weight: bold;
+}
+
+a.nav-link.nav-link:HOVER {
+    color: #03AC13;
+    font-weight: bold;
+}
+
+/* END: CSS for main NAV  */
+
+
+/* BEGIN: CSS for Contact Page  */
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+#iframeMap{
+    height: 450px;
+}
+
+/* END: CSS for Contact Page  */
+
+
+/* BEGIN: CSS for Footer  */
+/* Social Icons */
+.fa {    
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: 9px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+}
+
+.font-dancing{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 20px; 
+}
+  /* END: CSS for Footer  */
