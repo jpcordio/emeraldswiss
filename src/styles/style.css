@@ -96,4 +96,78 @@ iframe{
     font-family: 'Dancing Script', cursive !important;
     font-size: 20px; 
 }
-  /* END: CSS for Footer  */
+/* END: CSS for Footer  */
+
+
+/* CSS for the Mini-Game (by Joao Cordio) */
+#contentPlay{
+    color: #fff;
+    max-width: 100% !important;
+    background-image: url("../assets/images/game/diagonal_dot.webp");
+    background-repeat: repeat;
+    }
+    
+    #contentPlay img{  
+    cursor: pointer;
+    }
+    
+    .cardgame{
+      width:18rem;
+    }
+    
+    .logo {
+      width:190px;
+      height:300px;
+    }
+    
+    /* .shake and @keyframes shake was created to help on the mini game*/
+    .shake {
+      animation: shake 0.5s infinite alternate;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+     
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    /* CUSTOM BREAKPOINTS */
+
+/* SM breakpoint */
+@media (min-width: 100px ) {
+  /* that helps the game to have a better view on mobile */
+  #imageGame0, #imageGame1, #imageGame2{
+    height: 100px;
+    width: 80px;
+  }
+}
+
+/* MD breakpoint*/
+@media (min-width: 768px) {
+  #imageGame0, #imageGame1, #imageGame2{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* LG breakpoint */
+@media (min-width: 992px) {
+    /* CUSTOM DISPLAY */
+	  .d-lg-none { 
+      display: none!important; 
+    }
+    #imageGame0, #imageGame1, #imageGame2{
+      height: 100%;
+      width: 100%;
+    }
+}

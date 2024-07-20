@@ -1,6 +1,7 @@
 import MyCarousel from "../components/Carousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Minigame from "../components/Minigame";
 import Logo from "../assets/images/logo/logo_color.webp";
 import OurFamily1 from "../assets/images/cards/CindyFace.webp";
 import OurFamily2 from "../assets/images/cards/BritaFace.webp";
@@ -104,7 +105,7 @@ function Home() {
                     <div class="card mx-auto mb-2 our-customer">
                         <img class="card-img-top" src={OurCustomer2} alt="Card image cap" />
                         <div class="card-body">
-                            <h5 class="card-title">Stella Branco</h5>
+                            <h5 class="card-title">Stela Branco</h5>
                             <p class="card-text">Absolutely thrilled with my new furry friend! Grateful beyond words for this precious addition to my family. Can't wait for all the adventures and unconditional love ahead. Thank you for bringing so much joy into my life, little pup! We finally get our own little baby Bernese!
                             </p>
                         </div>
@@ -122,6 +123,8 @@ function Home() {
                 </div>
             </div> 
         </div>
+
+        <Minigame />
 
         <Footer />
       </div>
