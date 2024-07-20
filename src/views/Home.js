@@ -15,12 +15,12 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
       <div>
-        <MyCarousel />
+        <MyCarousel page="home" />
         <Header header="A Bit About Us" />
 
         {/* Container for "About Us" */}
         <div class="container" id="contentAboutUs">
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-12 col-md-5">
                     <img src={Logo} class="mx-auto d-block logo" alt="logo" />
                 </div>
