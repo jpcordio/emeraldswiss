@@ -283,3 +283,9 @@ iframe{
     top: 50%;
     transform: translateY(-50%);
   }
+
+  /* Breed Health */
+  .table-bordered thead tr th {
+    background-color: black;
+    color: white;
+  }
