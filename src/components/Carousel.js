@@ -3,9 +3,9 @@ import { Carousel } from 'react-bootstrap';
 import home1 from "../assets/images/carousel/brita.webp";
 import home2 from "../assets/images/carousel/brita-two.webp";
 import home3 from "../assets/images/carousel/brita-three.webp";
-import about1 from "../assets/images/carousel/brita.webp";
-import about2 from "../assets/images/carousel/brita-two.webp";
-import about3 from "../assets/images/carousel/brita-three.webp";
+import about1 from "../assets/images/carousel/ThreeDogs.webp";
+import about2 from "../assets/images/carousel/Awards2022.webp";
+import about3 from "../assets/images/carousel/ourDogs.webp";
 
 function MyCarousel(props) {
 
@@ -13,12 +13,12 @@ function MyCarousel(props) {
     let banner2 = "https://www.w3schools.com/bootstrap/paris.jpg";
     let banner3 = "https://www.w3schools.com/bootstrap/sanfran.jpg";
 
-    if(props.attractions === "home"){      
+    if(props.page === "home"){      
         banner1 = home1;
         banner2 = home2;
         banner3 = home3;
     }
-    else if (props.attractions === "about"){      
+    else if (props.page === "about"){      
         banner1 = about1;
         banner2 = about2;
         banner3 = about3;      

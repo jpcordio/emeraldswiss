@@ -180,10 +180,14 @@ iframe{
     font-size: x-large;
 }
 
+.quote:hover{
+    cursor: pointer;
+}
+
 .quotes{
     background-color: #f0eded;
     border-radius: 5%;
-    font-style: italic;        
+    font-style: italic;     
 }
 
 .link {
@@ -232,4 +236,50 @@ iframe{
     z-index: 1000;
     width: 300px;
     text-align: left;
+  }
+
+
+  /* Styling for dog images used on our dogs page. Set a fixed width, and set to fit*/
+.dog-img {
+  width: 70%;
+  height: auto;
+}
+
+  /* Add a zoom on hover effect */
+  .dog-img:hover {
+    transform: scale(0.9); 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  /* Styling for the image in the modal; Set imaage to take up full width and height of its container,*/
+  #dogModalImage {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }
+
+  /* Add some space at the top of button used on available puppes page */
+  .btop-margin {
+    margin-top: 20px;
+  }
+
+  /* Custom List on BreedHealth */
+  .custom-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 20px; 
+  }
+  
+  .custom-list li {
+    position: relative; 
+    margin-bottom: 10px; 
+    padding-left: 30px; 
+    padding-right: 20px; 
+  }
+  .custom-list li:before {
+    content: '🐾'; /* Unicode character for the custom bullet point */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }

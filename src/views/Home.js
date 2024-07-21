@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
-      <div>
+      <div class="text-justify">
         <MyCarousel page="home" />
         <Header header="A Bit About Us" />
 
@@ -50,7 +50,7 @@ function Home() {
                 <div class="card-group">
                     <div class="col-12 col-md-4 mb-2">
                         <div class="card">
-                            <img class="card-img-top dogFace" src={OurFamily1} alt="Card image cap" />
+                            <img class="card-img-top dogFace" src={OurFamily1} alt="Cindy's Face" />
                             <div class="card-body">
                                 <h5 class="card-title">Cindy</h5>
                                 <p class="card-text">Meet Cindy, the remarkable Alpha female in our kennel. She holds Irish Junior Champion and IKC Centenary Winner titles. Cindy came to us from Lithuania, where she hails from a distinguished lineage of therapy dogs known for their exceptional calmness and strong character. She leaves an unforgettable impression on everyone she meets with her gentle and loving nature.</p>                        
@@ -59,7 +59,7 @@ function Home() {
                     </div>
                     <div class="col-12 col-md-4 mb-2">
                         <div class="card">
-                            <img class="card-img-top dogFace" src={OurFamily2} alt="Card image cap" />
+                            <img class="card-img-top dogFace" src={OurFamily2} alt="Brita's Face" />
                             <div class="card-body">
                                 <h5 class="card-title">Brita</h5>
                                 <p class="card-text">Meet Brita, the youngest member of our kennel. Despite her smaller size, Brita is true to the breed standard. She is also a show dog embodying elegance and poise in every aspect of her being. Brita possesses a calm and brave character, with a gentle and delicate temperament that endears her to all. She boasts a beautiful face expression that captures hearts wherever she goes.</p>                        
@@ -68,7 +68,7 @@ function Home() {
                     </div>
                     <div class="col-12 col-md-4 mb-2">
                         <div class="card">
-                            <img class="card-img-top dogFace" src={OurFamily3}  alt="Card image cap" />
+                            <img class="card-img-top dogFace" src={OurFamily3}  alt="Ollie's Face" />
                             <div class="card-body">
                                 <h5 class="card-title">Ollie</h5>
                                 <p class="card-text">Meet Ollie, our always happy stud dog! He's simply the best. He is the Junior Champion male, imported from Lithuania, with a big heart and playful spirit. Ollie is fully health tested, and his loving nature makes him a favourite among our family and friends. He is a proud daddy of our Litter A, passing on all of his best qualities to his beautiful puppies.<br /><br /></p>                        
@@ -92,7 +92,7 @@ function Home() {
                 </div>                
                 <div class="col-12 col-lg-4">
                     <div class="card mx-auto mb-2 our-customer">
-                        <img class="card-img-top" src={OurCustomer1} alt="Card image cap" />
+                        <img class="card-img-top" src={OurCustomer1} alt="Customer's Face: Audrius" />
                         <div class="card-body">
                             <h5 class="card-title">Audrius Skema</h5>
                             <p class="card-text">
@@ -103,7 +103,7 @@ function Home() {
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="card mx-auto mb-2 our-customer">
-                        <img class="card-img-top" src={OurCustomer2} alt="Card image cap" />
+                        <img class="card-img-top" src={OurCustomer2} alt="Customer's Face: Stela" />
                         <div class="card-body">
                             <h5 class="card-title">Stela Branco</h5>
                             <p class="card-text">Absolutely thrilled with my new furry friend! Grateful beyond words for this precious addition to my family. Can't wait for all the adventures and unconditional love ahead. Thank you for bringing so much joy into my life, little pup! We finally get our own little baby Bernese!
@@ -113,7 +113,7 @@ function Home() {
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="card mx-auto mb-2 our-customer">
-                        <img class="card-img-top" src={OurCustomer3} alt="Card image cap" />
+                        <img class="card-img-top" src={OurCustomer3} alt="Customer's Face: Joao" />
                         <div class="card-body">
                             <h5 class="card-title">João Cordio</h5>
                             <p class="card-text">Over the moon with my new bundle of joy! Gratitude overflowing for this adorable puppy who has already stolen my heart. Looking forward to making unforgettable memories together. A huge thank you to everyone involved in bringing this little ray of sunshine into my life! 
