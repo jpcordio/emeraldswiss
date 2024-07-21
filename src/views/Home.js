@@ -12,6 +12,7 @@ import OurFamily3 from "../assets/images/cards/OllieFace.webp";
 import OurCustomer1 from "../assets/images/customer/customer_audrius.webp";
 import OurCustomer2 from "../assets/images/customer/customer_stela.webp";
 import OurCustomer3 from "../assets/images/customer/customer_joao.webp";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 function Home() {
   return (
@@ -90,8 +91,8 @@ function Home() {
                   <h5 className="card-title">{['Audrius Skema', 'Stela Branco', 'João Cordio'][index]}</h5>
                   <p className="card-text">
                     {[
-                      "Absolutely delighted with my new furry family member! Grateful beyond words for this adorable addition to our household. Looking forward to countless cuddles, and unconditional love ahead. Thank you for bringing so much warmth and happiness into our lives!",
-                      "Absolutely thrilled with my new furry friend! Grateful beyond words for this precious addition to my family. Can't wait for all the adventures and unconditional love ahead. Thank you for bringing so much joy into my life, little pup! We finally get our own little baby Bernese!",
+                      "Absolutely delighted with my new furry family member! Grateful beyond words for this adorable addition to our household. Looking forward to countless cuddles, and unconditional love ahead. Thank you all for helping bringing so much warmth and happiness into our lives!",
+                      "Absolutely thrilled with my new furry friend! Grateful beyond words for this precious addition to my family. Can't wait for all the adventures and unconditional love ahead. Thank you for bringing so much joy into my life, little pup! We get our own little baby Bernese!",
                       "Over the moon with my new bundle of joy! Gratitude overflowing for this adorable puppy who has already stolen my heart. Looking forward to making unforgettable memories together. A huge thank you to everyone involved in bringing this little ray of sunshine into my life!"
                     ][index]}
                   </p>
@@ -104,6 +105,8 @@ function Home() {
 
       <Minigame />
       <Footer />
+
+      <ScrollToTopButton />
     </div>
   );
 }

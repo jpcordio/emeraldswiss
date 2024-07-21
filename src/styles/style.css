@@ -67,27 +67,27 @@ iframe{
 
 /* BEGIN: CSS for Footer  */
 /* Social Icons */
-.fa {    
+.social-icon {    
     font-size: 15px;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 10px 2px;
     border-radius: 50%;
-    padding-top: 9px;
+    padding: 5px 9px 5px 9px;
 }
   
-.fa:hover {
+.social-icon:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
+.social-icon-facebook {
     background: #3B5998;
     color: white;
 }
 
-.fa-instagram {
+.social-icon-instagram {
     background: #ea4c89;
     color: white;
 }
