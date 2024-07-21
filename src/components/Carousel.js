@@ -6,6 +6,9 @@ import home3 from "../assets/images/carousel/brita-three.webp";
 import about1 from "../assets/images/carousel/ThreeDogs.webp";
 import about2 from "../assets/images/carousel/Awards2022.webp";
 import about3 from "../assets/images/carousel/ourDogs.webp";
+import puppies1 from "../assets/images/carousel/puppies1.webp";
+import puppies2 from "../assets/images/carousel/puppies2.webp";
+import puppies3 from "../assets/images/carousel/puppies3.webp";
 
 function MyCarousel(props) {
 
@@ -22,6 +25,11 @@ function MyCarousel(props) {
         banner1 = about1;
         banner2 = about2;
         banner3 = about3;      
+    }
+    else if (props.page === "availablepuppies"){      
+        banner1 = puppies1;
+        banner2 = puppies2;
+        banner3 = puppies3;      
     }
 
     return (

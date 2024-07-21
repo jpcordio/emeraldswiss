@@ -185,7 +185,7 @@ function BreedHealth() {
 					{/* <!-- Press on Image Link to Organisation Website --> */}
 					<h6 class="text-center mt-4"> To Read More Click on Berner-Garde Logo </h6>
 					<div class="text-center">
-						<a href="https://www.bernergarde.org" target="_blank">
+						<a href="https://www.bernergarde.org" target="_blank" rel="noreferrer">
 							<img src={Banner2} title="Go To Bernergarde.org" alt="Bernergarde" class="img-fluid" />
 						</a>
 					</div>
