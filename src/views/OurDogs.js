@@ -6,6 +6,7 @@ import Cindy from "../assets/images/cards/CindyFace.webp";
 import Brita from "../assets/images/cards/BritaFace.webp";
 import Alice from "../assets/images/cards/AliceFace.webp";
 import { Modal, Button } from 'react-bootstrap';
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 function OurDogs() {
   
@@ -72,6 +73,7 @@ function OurDogs() {
       </Modal>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

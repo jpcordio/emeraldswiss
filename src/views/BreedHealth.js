@@ -5,6 +5,7 @@ import Banner2 from "../assets/images/health/BGlogoRed.webp";
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 
 function BreedHealth() {
@@ -193,7 +194,8 @@ function BreedHealth() {
 			</div>
 		</div>
 
-      <Footer />  
+      <Footer />
+	  <ScrollToTopButton />  
     </div>
   );
 }

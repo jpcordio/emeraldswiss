@@ -128,7 +128,7 @@ function Minigame() {
                 id={image.id}
                 data-value={image.dataValue}
                 src={image.src}
-                alt="A Random Image"
+                alt={image.id + " A Random Image"} 
                 onClick={() => setGameImages(image.id)}
               />
             </div>

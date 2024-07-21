@@ -105,7 +105,6 @@ function Home() {
 
       <Minigame />
       <Footer />
-
       <ScrollToTopButton />
     </div>
   );

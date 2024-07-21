@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import MyCarousel from "../components/Carousel";
 import FilePath from "../assets/files/Questionnaire.pdf";
 import { Button } from 'react-bootstrap';
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 function AvailablePuppies() {
   return (
@@ -28,6 +29,7 @@ function AvailablePuppies() {
       </div>
 
       <Footer />
+      <ScrollToTopButton />
         
     </div>
   );

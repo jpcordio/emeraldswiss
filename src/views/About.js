@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import MyCarousel from "../components/Carousel";
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 function About() {
 
@@ -54,9 +55,9 @@ function About() {
         <div class="row mt-3">
           <div class="col-md-12 text-justify">
           <p> Having established ourselves as conscientious and responsible breeders, we take great pride in our affiliation with esteemed organisations dedicated to upholding the highest standards of canine welfare. Our kennel is registered with the 
-						<a href="https://www.fci.be/" class="link" target="_blank"> International Canine Federation (FCI)</a> and proudly associated with the 
-						<a href="https://www.ikc.ie/" class="link" target="_blank"> Irish Kennel Club (IKC)</a> adhering to their strict guidelines and regulations. On a personal level, my commitment extends beyond the confines of our kennel. As a dedicated committee member of the 
-						<a href="https://www.berneseclubireland.com/" class="link" target="_blank"> Bernese Mountain Dog Club of Ireland</a>, I am privileged to contribute to the promotion and preservation of this beloved breed within our local community. Furthermore, I am honored to serve as the Irish and Baltic representative for the Berner-Garde Foundation, which is a global organisation focused on enabling scientific research and providing resources to reduce the spread of genetic diseases and to increase the longevity of our beloved breed.
+						<a href="https://www.fci.be/" class="link" target="_blank" rel="noreferrer"> International Canine Federation (FCI)</a> and proudly associated with the 
+						<a href="https://www.ikc.ie/" class="link" target="_blank" rel="noreferrer"> Irish Kennel Club (IKC)</a> adhering to their strict guidelines and regulations. On a personal level, my commitment extends beyond the confines of our kennel. As a dedicated committee member of the 
+						<a href="https://www.berneseclubireland.com/" class="link" target="_blank" rel="noreferrer"> Bernese Mountain Dog Club of Ireland</a>, I am privileged to contribute to the promotion and preservation of this beloved breed within our local community. Furthermore, I am honored to serve as the Irish and Baltic representative for the Berner-Garde Foundation, which is a global organisation focused on enabling scientific research and providing resources to reduce the spread of genetic diseases and to increase the longevity of our beloved breed.
 					</p>
 					<p> In conclusion, our journey is guided by a profound love and respect for the Bernese breed, ensuring that every puppy departing the Emerladswiss kennel continues to receive the love, attention, and support they deserve. We invite you to embark together with us on this enchanting journey, full of love, happiness, and commitment to these wonderful dogs, who in turn will bring laughter, devotion, friendship, and lifetime memories in the hearts and homes of their loving their families. Please meet our dogs bellow.
 					</p>
@@ -72,6 +73,7 @@ function About() {
       </div>
 
       <Footer /> 
+      <ScrollToTopButton />
 
     </div>
   );
