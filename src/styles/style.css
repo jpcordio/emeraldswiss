@@ -289,3 +289,18 @@ iframe{
     background-color: black;
     color: white;
   }
+
+.contact-form input[type="text"], /* Applies to all fields in the form */
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px; /* Text field size */
+}
