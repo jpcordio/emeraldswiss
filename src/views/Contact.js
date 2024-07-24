@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import ScrollToTopButton from "../components/ScrollToTopButton";
-import GoogleMaps from "../components/GoogleMaps.js";
+import GoogleMaps from "../components/GoogleMaps";
 
 
 function Contact() {

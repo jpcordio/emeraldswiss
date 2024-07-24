@@ -1,0 +1,112 @@
+{
+  "shows": [
+    {
+      "id": "2",
+      "society": "Irish Kennel Club",
+      "type": "All Breed Championship",
+      "date": "17/03/2024",
+      "venue": "National Show Centre",
+      "city": "Cloghran",
+      "judge": "Mr. Per Kristian Andersen"
+    },
+    {
+      "id": "3",
+      "society": "Combined Canine Club",
+      "type": "International Show",
+      "date": "30/03/2024",
+      "venue": "Naas Racecourse",
+      "city": "Naas",
+      "judge": "Ms. Eva Eriksson"
+    },
+    {
+      "id": "4",
+      "society": "Combined Canine Club",
+      "type": "All Breed Championship",
+      "date": "31/03/2024",
+      "venue": "Naas Racecourse",
+      "city": "Naas",
+      "judge": "Mr. Francisco Salvador Janeiro"
+    },
+    {
+      "id": "5",
+      "society": "Mid West Canine Club",
+      "type": "All Breed Championship",
+      "date": "20/04/2024",
+      "venue": "Roscommon Racecourse",
+      "city": "Roscommon",
+      "judge": "Ms. Karen McDevitt"
+    },
+    {
+      "id": "6",
+      "society": "Fermoy Canine Club",
+      "type": "International Show",
+      "date": "04/05/2024",
+      "venue": "Ferryhouse Complex",
+      "city": "Clonmel",
+      "judge": "Mr. William Dobbin"
+    },
+    {
+      "id": "7",
+      "society": "Drogheda & District Show Association",
+      "type": "All Breed Championship",
+      "date": "12/05/2024",
+      "venue": "National Show Centre",
+      "city": "Cloghran",
+      "judge": "Mr. Michael Clancy"
+    },
+    {
+      "id": "8",
+      "society": "Bernese Mountain Dog Club of Ireland",
+      "type": "Breed Championship",
+      "date": "25/05/2024",
+      "venue": "Naas Racecourse",
+      "city": "Naas",
+      "judge": "Mrs. Elin Normannseth"
+    },
+    {
+      "id": "9",
+      "society": "Irish Ladies Kennel Association",
+      "type": "All Breed Championship",
+      "date": "13/07/2024",
+      "venue": "National Show Centre",
+      "city": "Cloghran",
+      "judge": "Mr. Martin Murphy"
+    },
+    {
+      "id": "10",
+      "society": "Sligo & District Canine Club",
+      "type": "All Breed Championship",
+      "date": "20/07/2024",
+      "venue": "Clonguish GAA Sports Complex",
+      "city": "Newtownforbes",
+      "judge": "Mrs. Jeanette Kirk"
+    },
+    {
+      "id": "11",
+      "society": "Munster Agricultural Society",
+      "type": "All Breed Championship",
+      "date": "27/07/2024",
+      "venue": "Munster Agricultural Showgrounds",
+      "city": "Curraheen",
+      "judge": "Mr. Hans Stigt"
+    },
+    {
+      "id": "12",
+      "society": "Munster Agricultural Society",
+      "type": "International Show",
+      "date": "27/07/2024",
+      "venue": "Munster Agricultural Showgrounds",
+      "city": "Curraheen",
+      "judge": "Mrs. Eilish Neally"
+    },
+    {
+      "id": 16,
+      "society": "Irish Kennel Club",
+      "type": "International Show",
+      "date": "16/03/2024",
+      "venue": "National Show Centre",
+      "city": "Cloghran",
+      "judge": "Mr. David Gafney"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MyCarousel from "../components/Carousel";
+import SwissDogs from "../components/SwissDogs";
 import FilePath from "../assets/files/Questionnaire.pdf";
 import { Button } from 'react-bootstrap';
 import ScrollToTopButton from "../components/ScrollToTopButton";
@@ -27,6 +28,8 @@ function AvailablePuppies() {
           </Button>
         </a> 
       </div>
+
+      <SwissDogs />
 
       <Footer />
       <ScrollToTopButton />

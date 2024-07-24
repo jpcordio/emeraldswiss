@@ -1,10 +1,49 @@
+# Emeraldswiss Kennel Website
+
+Authors: 
+Stela Branco x23323205
+Joao Paulo Cordio x23309644
+Audrius Skema x23233788
+
+## Description
+
+This is a React application / website for displaying information about dog kennel and dog show events. It uses `axios` for making HTTP requests, `react-bootstrap` for UI components, and `json-server` for mocking a backend server.
+
+## Prerequisites
+
+Before running the application, ensure you have the following packages installed:
+
+- **axios**: For making HTTP requests.
+- **react-bootstrap**: For UI components.
+- **emailjs-com**: For sending emails in ContactUs page.
+- **json-server**: For mocking the backend server with a `db.json` file included in the public directory.
+
+## Installation
+
+1. **Mock Backend JSON Server**
+
+   A simple yet powerful tool for frontend developers to create a mock REST backend server API for development and testing purposes. It allows to develop a full fake REST API and supports common HTTP methods like the GET, POST, PUT, and DELETE, just like a real backend API server would. And React CRUD applications that allows users to Create, Read, Update, and Delete data based on search queries.
+
+2. npm install axios react-bootstrap emailjs-com json-server
+
+   Following json-server installation in the project directory
+   Open new Command Prompt or PowerShell window
+   And run following command in the project directory to 
+   start JSON server before starting your React application in the second Command Prompt:
+
+   ## `json-server --watch db.json --port 5000`
+
+3. JSON Server Endpoint:
+
+   http://localhost:5000/shows
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, while JSON Server is running, you can run in the second Command Prompt:
 
 ### `npm start`
 

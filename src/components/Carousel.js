@@ -4,7 +4,7 @@ import home1 from "../assets/images/carousel/brita.webp";
 import home2 from "../assets/images/carousel/brita-two.webp";
 import home3 from "../assets/images/carousel/brita-three.webp";
 import about1 from "../assets/images/carousel/ThreeDogs.webp";
-import about2 from "../assets/images/carousel/Awards2022.webp";
+import about2 from "../assets/images/carousel/fourDogs.webp";
 import about3 from "../assets/images/carousel/ourDogs.webp";
 import puppies1 from "../assets/images/carousel/puppies1.webp";
 import puppies2 from "../assets/images/carousel/puppies2.webp";

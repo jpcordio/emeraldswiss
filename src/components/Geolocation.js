@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import axios from "axios";
 
+/*Gets latitude and longitude coordinates and then fetches location details from Geoapify API */
 function Geolocation({ setLatitude, setLongitude, setCity, setCountry, setError, myApiKey }) {
   
+    /* Checks if browser supports geolocation */
     useEffect(() => {
         const getCoords = async () => {
             if (!("geolocation" in navigator)) {
@@ -10,6 +12,7 @@ function Geolocation({ setLatitude, setLongitude, setCity, setCountry, setError,
                 return;
             }
 
+            /* Gets coordinates and handles the API request */
             navigator.geolocation.getCurrentPosition(
                 async (pos) => {
                     const latitude = pos.coords.latitude;
@@ -45,6 +48,7 @@ function Geolocation({ setLatitude, setLongitude, setCity, setCountry, setError,
         getCoords();
     }, [setLatitude, setLongitude, setCity, setCountry, setError, myApiKey]);
 
+    /* Returns nothing, as it only performs side effects */
     return null;
 }
 
