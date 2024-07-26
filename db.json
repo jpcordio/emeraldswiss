@@ -82,16 +82,16 @@
       "judge": "Mrs. Jeanette Kirk"
     },
     {
-      "id": "11",
-      "society": "Munster Agricultural Society",
-      "type": "All Breed Championship",
-      "date": "27/07/2024",
-      "venue": "Munster Agricultural Showgrounds",
-      "city": "Curraheen",
-      "judge": "Mr. Hans Stigt"
+      "id": "16",
+      "society": "Irish Kennel Club",
+      "type": "International Show",
+      "date": "16/03/2024",
+      "venue": "National Show Centre",
+      "city": "Cloghran",
+      "judge": "Mr. David Gafney"
     },
     {
-      "id": "12",
+      "id": "19",
       "society": "Munster Agricultural Society",
       "type": "International Show",
       "date": "27/07/2024",
@@ -100,13 +100,13 @@
       "judge": "Mrs. Eilish Neally"
     },
     {
-      "id": 16,
-      "society": "Irish Kennel Club",
-      "type": "International Show",
-      "date": "16/03/2024",
-      "venue": "National Show Centre",
-      "city": "Cloghran",
-      "judge": "Mr. David Gafney"
+      "id": "21",
+      "society": "Clonmel Canine Club",
+      "type": "All Breed Championship",
+      "date": "18/08/2024",
+      "venue": "Ferryhouse Sports Complex",
+      "city": "Clonmel",
+      "judge": "Mr. Joseph Callaghan"
     }
   ]
 }

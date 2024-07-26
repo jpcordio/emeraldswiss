@@ -2,9 +2,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Banner from "../assets/images/health/hrisks.webp";
 import Banner2 from "../assets/images/health/BGlogoRed.webp";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import NavigationButton from "../components/NavigationButton";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 
 
@@ -45,35 +45,35 @@ function BreedHealth() {
       {/* <!-- Drop Down Menu Heading 2 -->			 */}
 		<div class="container" id="contentHips">
             <div class="row mt-3">
-			        <div class="col-md-12 text-justify">
-					<h4 id="hip-screening" class="text-center">Hip Evaluation</h4>
-					{/* <!-- Hip Evaluation Text --> */}
-					<p> Hip Dysplasia is a genetic condition most commonly seen in large breed dogs, including Bernese Mountain Dogs, where the hip joint does not develop correctly. Environmental factors including fast growth, low quality diet as well as excessive weight and increased physical activity can also increase the risk of such dysplasia development. Weakness and pain in the hind legs are the usual clinical signs. The dog appears wobbly and is reluctant to rise from a sitting or lying position. Some adult dogs will limp or become unwilling to climb stairs. These signs can be seen in puppies as early as a few months old but are most common in dogs one to two years of age. However, it often takes years of gradual bone degeneration until a dog becomes clearly symptomatic. While each case is different in terms of progression and symptoms, and such deterioration can also be caused by abnormal wear and tear on healthy dog joints, it is recommended by FCI (World Canine Organisation) to screen all breeding stock regardless of clinical symptoms in order to establish physical changes early and to reduce the risk of producing affected puppies.
-					</p>
-					<p> Generally, the most reliable way of determining the health of a dog’s hips is by having your dog x-rayed and assessed by a specialist. Globally, there are several screening schemes evaluating the severity of hip dysplasia: FCI (Globally), BVA (UK), OFA (North America) and (SV) Germany. The Federation Cynologique Internationale (FCI) system is used by all members in most European countries, Russia, South America, and Asia, from 12 months of age for official scoring (18 months for giant breeds). Each joint is allotted to one of five grades (A-E) that are defined descriptively. The British Veterinary Association (BVA) system is used in Britain, Ireland, Australia and New Zealand for dogs older than 12 months. Nine radiographic criteria are evaluated and added together in the final report to account for the score between 0 and 52 points for each joint. Such an approach creates a score based on individual parameters in each hip, including both those which describe subluxation and those which describe secondary, degenerative change. 
-					</p>
-					<p> Consequently, the BVA recommends breeding only from dogs with scores below the breed median or well below the breed mean which takes into account the fact that the same score can arise from different causes. The Orthopaedic Foundation for Animals (OFA) system is used in the USA and Canada for dogs minimum 2 years of age. Seven grades are defined where the borderline grade is assigned to incongruent joints of undetermined quality but without degenerative changes. In Switzerland, however, a unique system is used linking the British system scoring points with the six radiographic criteria from the FCI grading system allowing to quantify the degree of laxity and arthritic changes for a more systematic and objective scoring. The minimum age for official scoring in Switzerland for the Bernese Mountain Dog is 14 months.
-					</p>
-					<p> Final grading is based on the appearance of the worst of the two hips for FCI, OFA, Germany and Switzerland, while for BVA the scoring points of both joints are added together representing the final score (excl. Australia). Under FCI regulations grades A and B are considered normal joints, whereas the grades D and E are dysplastic, while grade C represent mild dysplasia calling for breed-specific breeding strategies.
-					</p>
-					<h6 class="text-center"> Press To Compare Commonly Used Hip Scoring Schemes</h6>
-				</div>
+				<div class="col-md-12 text-justify">
+				<h4 id="hip-screening" class="text-center">Hip Evaluation</h4>
+				{/* <!-- Hip Evaluation Text --> */}
+				<p> Hip Dysplasia is a genetic condition most commonly seen in large breed dogs, including Bernese Mountain Dogs, where the hip joint does not develop correctly. Environmental factors including fast growth, low quality diet as well as excessive weight and increased physical activity can also increase the risk of such dysplasia development. Weakness and pain in the hind legs are the usual clinical signs. The dog appears wobbly and is reluctant to rise from a sitting or lying position. Some adult dogs will limp or become unwilling to climb stairs. These signs can be seen in puppies as early as a few months old but are most common in dogs one to two years of age. However, it often takes years of gradual bone degeneration until a dog becomes clearly symptomatic. While each case is different in terms of progression and symptoms, and such deterioration can also be caused by abnormal wear and tear on healthy dog joints, it is recommended by FCI (World Canine Organisation) to screen all breeding stock regardless of clinical symptoms in order to establish physical changes early and to reduce the risk of producing affected puppies.
+				</p>
+				<p> Generally, the most reliable way of determining the health of a dog’s hips is by having your dog x-rayed and assessed by a specialist. Globally, there are several screening schemes evaluating the severity of hip dysplasia: FCI (Globally), BVA (UK), OFA (North America) and (SV) Germany. The Federation Cynologique Internationale (FCI) system is used by all members in most European countries, Russia, South America, and Asia, from 12 months of age for official scoring (18 months for giant breeds). Each joint is allotted to one of five grades (A-E) that are defined descriptively. The British Veterinary Association (BVA) system is used in Britain, Ireland, Australia and New Zealand for dogs older than 12 months. Nine radiographic criteria are evaluated and added together in the final report to account for the score between 0 and 52 points for each joint. Such an approach creates a score based on individual parameters in each hip, including both those which describe subluxation and those which describe secondary, degenerative change. 
+				</p>
+				<p> Consequently, the BVA recommends breeding only from dogs with scores below the breed median or well below the breed mean which takes into account the fact that the same score can arise from different causes. The Orthopaedic Foundation for Animals (OFA) system is used in the USA and Canada for dogs minimum 2 years of age. Seven grades are defined where the borderline grade is assigned to incongruent joints of undetermined quality but without degenerative changes. In Switzerland, however, a unique system is used linking the British system scoring points with the six radiographic criteria from the FCI grading system allowing to quantify the degree of laxity and arthritic changes for a more systematic and objective scoring. The minimum age for official scoring in Switzerland for the Bernese Mountain Dog is 14 months.
+				</p>
+				<p> Final grading is based on the appearance of the worst of the two hips for FCI, OFA, Germany and Switzerland, while for BVA the scoring points of both joints are added together representing the final score (excl. Australia). Under FCI regulations grades A and B are considered normal joints, whereas the grades D and E are dysplastic, while grade C represent mild dysplasia calling for breed-specific breeding strategies.
+				</p>
+				<h6 class="text-center"> Press To Compare Commonly Used Hip Scoring Schemes</h6>
+			</div>
 
 
 				
-				{/* <!-- Hip Evaluation Summary Table --> */}
-				<div class="container mt-3" id="contentTable">
-					<div class="row">
-						<div class="col-md-12 text-center">	
-            <Button
-              id="toggleTableBtn"
-              className="btn btn-success mb-2"
-              onClick={toggleTableVisibility}
-            >
-              Toggle Table
-            </Button>
-            <br />
-              {isTableVisible && (
+			{/* <!-- Hip Evaluation Summary Table --> */}
+			<div class="container mt-3" id="contentTable">
+				<div class="row">
+					<div class="col-md-12 text-center">	
+						<Button
+						id="toggleTableBtn"
+						className="btn btn-success mb-2"
+						onClick={toggleTableVisibility}
+						>
+						Toggle Table
+						</Button>
+						<br />
+						{isTableVisible && (
 							<table id="healthTable" className="table table-bordered">
 								<thead>
 									<tr>
@@ -157,12 +157,12 @@ function BreedHealth() {
 									</tr>
 								</tbody>
 							</table>
-              )}
-						</div>
+						)}
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
     <div class="container mt-4" id="contentBernergarde">
             <div class="row mt-3">
@@ -178,9 +178,7 @@ function BreedHealth() {
 					
 					{/* <!-- Button Leading to Our Dogs page --> */}
 					<div class="container text-center mt-3">
-            <Link to="/contact">
-              <Button variant="success">Contact Us</Button>
-            </Link> 
+						<NavigationButton to="/contact" buttonText="Contact Us" variant="success" />
 					</div>
 					
 					{/* <!-- Press on Image Link to Organisation Website --> */}
@@ -194,8 +192,8 @@ function BreedHealth() {
 			</div>
 		</div>
 
-      <Footer />
-	  <ScrollToTopButton />  
+		<Footer />
+		<ScrollToTopButton />  
     </div>
   );
 }

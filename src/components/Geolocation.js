@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import axios from "axios";
 
-/*Gets latitude and longitude coordinates and then fetches location details from Geoapify API */
+/* Gets latitude and longitude coordinates and then fetches location details from Geoapify API */
 function Geolocation({ setLatitude, setLongitude, setCity, setCountry, setError, myApiKey }) {
   
     /* Checks if browser supports geolocation */
@@ -34,13 +34,18 @@ function Geolocation({ setLatitude, setLongitude, setCity, setCountry, setError,
                         setLongitude(longitude);
                         setCity(city);
                         setCountry(country);
-                        setError(""); // Clear any previous errors
+                        setError(""); /* Clear previous errors */
                     } catch (error) {
-                        setError("Could not retrieve the location. Check your API key or try again later!");
+                        setError("Cannot get your location details. Please check API.");
                     }
                 },
-                (error) => {
-                    setError("Please enable geolocation for the map to be displayed");
+                (err) => {
+                    /* Error handling for geolocation */
+                    if (err.code === err.PERMISSION_DENIED) {
+                        setError("Please allow geolocation in your browser!");
+                    } else {
+                        setError("Cannot get your location details. Please check API.");
+                    }
                 }
             );
         };

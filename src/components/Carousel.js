@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import home1 from "../assets/images/carousel/brita.webp";
 import home2 from "../assets/images/carousel/brita-two.webp";

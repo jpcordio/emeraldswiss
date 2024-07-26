@@ -35,23 +35,27 @@ function SwissDogs() {
 
     /* Display message while loading */
     if (isLoading) {
-        return <div>Loading data...</div>;
+        return <div className="text-center mt-4">Loading data...</div>;
     }
 
     /* Maps through the breeds array obtained and renders a DogBreed component for each breed with props */
     return (
-        <div>
+        <div className="container mt-4">
             <h1 className="text-center mt-4">Swiss Mountain Dog Breeds</h1>
-            <div className="breeds-list">
-                {breeds.map((breed, index) => (
-                    <DogBreed
-                      key={index}
-                      name={breed.displayName}
-                      description={breed.description}
-                      image={breed.image}
-                      link={breed.link}
-                    />
-                ))}
+            <div className="row justify-content-center">
+                <div className="col-md-12">
+                    <div className="breeds-list">
+                        {breeds.map((breed, index) => (
+                            <DogBreed
+                                key={index}
+                                name={breed.displayName}
+                                description={breed.description}
+                                image={breed.image}
+                                link={breed.link}
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
     );

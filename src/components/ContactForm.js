@@ -31,21 +31,23 @@ const ContactForm = () => {
 
     /* Populate Contact Form to collect user input and display returned messages */
     return (
-        <div className="row justify-content-center mt-4">
-            <div className="col-md-6 text-center">
-                <p>
-                    Please let us know if you have any further queries regarding the website
-                </p>
-				<form className="contact-form" onSubmit={sendEmail}>
-					<label>Your Name:</label>
-					<input type="text" name="user_name" required />
-					<label>Email Address:</label>
-					<input type="email" name="user_email" required />
-					<label>Message:</label>
-					<textarea name="message" required />
-					<Button variant="success" type="submit" disabled={isSubmitting}>Send Email</Button>
-					{stateMessage && <p className="message">{stateMessage}</p>}
-				</form>         
+        <div className="container mt-4">
+            <div className="row justify-content-center">
+                <div className="col-md-8 text-center">
+                    <p>
+                        Please let us know if you have any further queries regarding the website
+                    </p>
+                    <form className="contact-form" onSubmit={sendEmail}>
+                        <label>Your Name:</label>
+                        <input type="text" name="user_name" required />
+                        <label>Email Address:</label>
+                        <input type="email" name="user_email" required />
+                        <label>Message:</label>
+                        <textarea name="message" required />
+                        <Button variant="success" type="submit" disabled={isSubmitting}>Send Email</Button>
+                        {stateMessage && <p className="message">{stateMessage}</p>}
+                    </form>         
+                </div>
             </div>
         </div>
     );

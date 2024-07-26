@@ -1,3 +1,4 @@
+import '../styles/style.css';
 import { useState, useEffect } from "react";
 import Geolocation from "./Geolocation";
 
@@ -44,22 +45,23 @@ function GoogleMaps() {
 						<h4>{error}</h4>
 					</div>
 				</div>
-			) : (
+			) : ( /* Returns user coordinates and provides driving directions */
 				<div className="row justify-content-center mt-4">
 					<div className="col-md-6 text-center">
 						<h1>Driving Directions</h1>
-						<h4>As per the below Coordinates: {latitude}, {longitude}</h4>
-						<h4>You are located in {city}, {country}.</h4>
-						<p>Below map shows driving directions to our kennel.</p>
+						<h6>As per the below Coordinates:</h6>
+						<h4>{latitude}, {longitude}</h4>
+						<h6>You are located in:</h6>
+						<h4>{city}, {country}</h4>
+						<p>Below map shows driving directions to our kennel</p>
 						{directionsUrl && (
-							<>
+							<div className="iframe">
 								<iframe
 								src={directionsUrl}
 								title="Google Map"
 								></iframe>
-							</> 
+							</div> 
 							/* Iframe embeds the Google Maps directions directly into the page */
-							// FOR STYLING Footer with media icons overlap with map iframe
 						)}
 					</div>
 				</div>

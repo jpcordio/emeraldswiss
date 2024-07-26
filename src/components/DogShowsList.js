@@ -17,7 +17,7 @@ const capitalizeWords = (text) => {
 /* Utility function to parse and format Date strings */
 const parseDate = (dateStr) => {
     const [day, month, year] = dateStr.split('/').map(Number);
-    return new Date(year, month - 1, day); // Months are 0-indexed in JavaScript Date
+    return new Date(year, month - 1, day);
 };
 
 /* Handles CRUD using json-server fake REST server for development purposes */ 
@@ -36,7 +36,7 @@ function DogShowsList() {
     const [nextId, setNextId] = useState(13);
     const [isEditing, setIsEditing] = useState(false);
     const [modalIsOpen, setModalIsOpen] = useState(false);
-    const [modalMode, setModalMode] = useState('add'); // 'add' or 'edit'
+    const [modalMode, setModalMode] = useState('add'); /* Add or Edit */
 
     /* Fetch shows on component mount */
     useEffect(() => {
@@ -90,7 +90,7 @@ function DogShowsList() {
         } else {
             const newShow = {
                 ...formValues,
-                id: nextId
+                id: String(nextId)
             };
 
             /* Makes API request to create new show info */
@@ -112,7 +112,7 @@ function DogShowsList() {
     /* CRUD delete data */
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:5000/shows/${id}`, {
+            await axios.delete(`http://localhost:5000/shows/${String(id)}`, {
                 headers: { 'Content-Type': 'application/json' }
             });
             await fetchShows(); /* Refresh list after deleting */
@@ -215,7 +215,7 @@ function DogShowsList() {
                 handleSubmit={handleSubmit}
                 resetForm={resetForm}
                 isEditing={isEditing}
-                btnDisabled={btnDisabled} // Pass btnDisabled to ShowPopup
+                btnDisabled={btnDisabled} /* Pass btnDisabled to ShowPopup component */
             />
             <img src={Banner} title="Dog Show Awards" className="img-fluid mb-2" alt="Banner: Our Kennel Awards" />
         </div>

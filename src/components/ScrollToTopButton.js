@@ -6,7 +6,7 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Função para rolar até o topo
+  // Function to scroll to the top
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -14,7 +14,7 @@ const ScrollToTopButton = () => {
     });
   };
 
-  // Função para verificar a posição do scroll
+  // Function to check the scroll position
   const toggleVisibility = () => {
     if (window.scrollY > 300) {
       setIsVisible(true);

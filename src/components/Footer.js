@@ -1,7 +1,7 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'; 
 
+/* Functions which shows imported React (FontAwsomeIcon) icons for Instagram and Facebook */
 function Footer() {
   const year = new Date().getFullYear();
 

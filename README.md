@@ -1,9 +1,8 @@
 # Emeraldswiss Kennel Website
 
-Authors: 
-Stela Branco x23323205
-Joao Paulo Cordio x23309644
-Audrius Skema x23233788
+Authors:
+ 
+Stela Branco x23323205 | Joao Paulo Cordio x23309644 | Audrius Skema x23233788
 
 ## Description
 

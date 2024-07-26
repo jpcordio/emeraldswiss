@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import menuLogo from "../assets/images/logo/round-logo.webp";
