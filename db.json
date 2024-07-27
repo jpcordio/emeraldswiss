@@ -49,37 +49,10 @@
       "id": "7",
       "society": "Drogheda & District Show Association",
       "type": "All Breed Championship",
-      "date": "12/05/2024",
+      "date": "12/05/2026",
       "venue": "National Show Centre",
       "city": "Cloghran",
       "judge": "Mr. Michael Clancy"
-    },
-    {
-      "id": "8",
-      "society": "Bernese Mountain Dog Club of Ireland",
-      "type": "Breed Championship",
-      "date": "25/05/2024",
-      "venue": "Naas Racecourse",
-      "city": "Naas",
-      "judge": "Mrs. Elin Normannseth"
-    },
-    {
-      "id": "9",
-      "society": "Irish Ladies Kennel Association",
-      "type": "All Breed Championship",
-      "date": "13/07/2024",
-      "venue": "National Show Centre",
-      "city": "Cloghran",
-      "judge": "Mr. Martin Murphy"
-    },
-    {
-      "id": "10",
-      "society": "Sligo & District Canine Club",
-      "type": "All Breed Championship",
-      "date": "20/07/2024",
-      "venue": "Clonguish GAA Sports Complex",
-      "city": "Newtownforbes",
-      "judge": "Mrs. Jeanette Kirk"
     },
     {
       "id": "16",
@@ -89,24 +62,6 @@
       "venue": "National Show Centre",
       "city": "Cloghran",
       "judge": "Mr. David Gafney"
-    },
-    {
-      "id": "19",
-      "society": "Munster Agricultural Society",
-      "type": "International Show",
-      "date": "27/07/2024",
-      "venue": "Munster Agricultural Showgrounds",
-      "city": "Curraheen",
-      "judge": "Mrs. Eilish Neally"
-    },
-    {
-      "id": "21",
-      "society": "Clonmel Canine Club",
-      "type": "All Breed Championship",
-      "date": "18/08/2024",
-      "venue": "Ferryhouse Sports Complex",
-      "city": "Clonmel",
-      "judge": "Mr. Joseph Callaghan"
     }
   ]
 }

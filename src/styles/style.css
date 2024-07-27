@@ -52,6 +52,11 @@ a.nav-link.nav-link:HOVER {
 /* END: CSS for Home Page  */
 
 /* BEGIN: CSS for Contact Page  */
+iframe {
+  width: 100%;
+  min-height: 450px;
+}
+
 .iframe {
   width: 100%;
   max-width: 100%;

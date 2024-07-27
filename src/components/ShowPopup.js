@@ -16,6 +16,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.society}
                             onChange={handleInputChange}
                             placeholder="Society"
+                            className="mb-3"
                         />
                     </Form.Group>
                     <Form.Group controlId="formType">
@@ -25,6 +26,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.type}
                             onChange={handleInputChange}
                             placeholder="Type"
+                            className="mb-3"
                         />
                     </Form.Group>
                     <Form.Group controlId="formDate">
@@ -34,6 +36,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.date}
                             onChange={handleInputChange}
                             placeholder="Date"
+                            className="mb-3"
                         />
                     </Form.Group>
                     <Form.Group controlId="formVenue">
@@ -43,6 +46,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.venue}
                             onChange={handleInputChange}
                             placeholder="Venue"
+                            className="mb-3"
                         />
                     </Form.Group>
                     <Form.Group controlId="formCity">
@@ -52,6 +56,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.city}
                             onChange={handleInputChange}
                             placeholder="City"
+                            className="mb-3"
                         />
                     </Form.Group>
                     <Form.Group controlId="formJudge">
@@ -61,6 +66,7 @@ function ShowPopup({ isOpen, onRequestClose, formValues, handleInputChange, hand
                             value={formValues.judge}
                             onChange={handleInputChange}
                             placeholder="Judge"
+                            className="mb-3"
                         />
                     </Form.Group>
                 </Form>
